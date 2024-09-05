@@ -1,0 +1,121 @@
+.kotak{
+    /* margin: 0 auto;
+    display: block;
+    box-sizing: border-box; */
+    width: 25rem;
+    height: 20rem;
+    background-color: white;
+}
+.kotakBar{
+    /* margin: 0 auto;
+    display: block;
+    box-sizing: border-box; */
+    width: 30rem;
+    height: 20rem;
+    background-color: white;
+}
+
+.chart-container{
+    width: 18rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+
+
+.navBar{
+    position: relative;
+}
+
+.navBar .navigation{
+    margin-left: 200px;
+}
+
+
+.button-notification .buttonNotification{
+    display: flex;
+    position: absolute;
+    right: 350px;
+    top: 33px;
+}
+
+.button-notification .buttonNotification .notificationn{
+    position: absolute;
+    top: -5px;
+    right: 90px;
+}
+
+.button-notification .buttonNotification p{
+    color: black;
+
+}
+.button-user .buttonUser{
+    background-color: blue;
+    padding: 20px;
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    position: absolute;  
+    right: 200px;
+    top: 20px;
+    border-radius: 10px; 
+}
+
+.button-user .buttonUser .user{
+    position: absolute;
+    bottom: 8px;
+    right: 55px;
+}
+
+
+.button-user button p{
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 13px;
+}
+
+.text1{
+    color: black;
+    font-size: 30px;
+}
+
+.text2{
+    color: black;
+    font-size: 30px;
+}
+
+.buttonUser{
+    position: absolute;
+    right: 30px;
+    top: 14px;
+}
+
+
+.sidebar-list{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .kotak {
+        width: 50rem;
+        height: 15rem;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .kotak {
+        width: 18rem;
+        height: 13rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .kotak {
+        width: 15rem;
+        height: 10rem;
+    }
+} 
